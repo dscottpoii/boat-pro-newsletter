@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articles - Wake & Waves</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">? Wake & Waves</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html" class="active">Articles</a></li>
+                <li><a href="subscribe.html">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Latest Articles</h1>
+        <p>Expert advice, inspiration, and practical tips for boaters</p>
+    </section>
+
+    <!-- Category Filter -->
+    <div class="container">
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">All Articles</button>
+            <button class="filter-btn" data-category="reviews">Boat Reviews</button>
+            <button class="filter-btn" data-category="destinations">Destinations</button>
+            <button class="filter-btn" data-category="maintenance">Maintenance</button>
+            <button class="filter-btn" data-category="buying">Buying Guide</button>
+            <button class="filter-btn" data-category="safety">Safety</button>
+            <button class="filter-btn" data-category="lifestyle">Lifestyle</button>
+        </div>
+
+        <!-- Featured Article -->
+        <div class="featured-article">
+            <div class="featured-content">
+                <span class="featured-badge">Featured</span>
+                <h2>The Complete Guide to Coastal Cruising: Planning Your First Multi-Day Adventure</h2>
+                <p class="article-meta">October 18, 2024 • By Captain James Martinez • 12 min read</p>
+                <p class="featured-excerpt">Ready to venture beyond day trips? This comprehensive guide covers everything you need to know about planning your first coastal cruise, from route selection and provisioning to weather windows and emergency procedures. We break down the essentials that separate a memorable adventure from a stressful ordeal.</p>
+                <a href="#" class="btn">Read Full Article</a>
+            </div>
+            <div class="featured-image">??</div>
+        </div>
+
+        <!-- Articles Grid -->
+        <h2 class="section-title">Recent Articles</h2>
+        <div class="articles-grid">
+            <!-- Maintenance Articles -->
+            <article class="article-card" data-category="maintenance">
+                <div class="article-image">?</div>
+                <div class="article-content">
+                    <span class="article-category">Maintenance</span>
+                    <h3>Spring Commissioning Checklist: Get Your Boat Ready</h3>
+                    <p class="article-meta">March 15, 2024 • Emily Chen • 8 min read</p>
+                    <p>The ultimate guide to preparing your vessel for the season ahead. Don't miss these critical steps that could save you thousands in repairs. From hull inspection to engine service, we cover everything.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- Destinations Articles -->
+            <article class="article-card" data-category="destinations">
+                <div class="article-image">???</div>
+                <div class="article-content">
+                    <span class="article-category">Destinations</span>
+                    <h3>Top 10 Caribbean Anchorages You Haven't Discovered Yet</h3>
+                    <p class="article-meta">March 12, 2024 • Sarah Williams • 10 min read</p>
+                    <p>Skip the crowds and discover pristine anchorages that offer the perfect blend of beauty, protection, and local charm. From hidden bays in the Grenadines to secluded spots in the BVI.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- Buying Guide Articles -->
+            <article class="article-card" data-category="buying">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Buying Guide</span>
+                    <h3>First Boat Purchase: What We Wish We'd Known</h3>
+                    <p class="article-meta">March 8, 2024 • Marcus Johnson • 12 min read</p>
+                    <p>Real stories from first-time boat buyers who share their hard-earned wisdom. Avoid costly mistakes and find the perfect vessel for your needs. Budget planning, surveys, and negotiation tips included.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- Reviews Articles -->
+            <article class="article-card" data-category="reviews">
+                <div class="article-image">?</div>
+                <div class="article-content">
+                    <span class="article-category">Boat Reviews</span>
+                    <h3>2024 Center Console Shootout: Five Boats Tested</h3>
+                    <p class="article-meta">October 15, 2024 • David Thompson • 15 min read</p>
+                    <p>We spent two weeks testing the latest center consoles from leading manufacturers. Which one delivers the best value, performance, and features? Our comprehensive comparison reveals all.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- Safety Articles -->
+            <article class="article-card" data-category="safety">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Safety</span>
+                    <h3>Essential Safety Equipment Every Boat Should Have</h3>
+                    <p class="article-meta">October 10, 2024 • Captain James Martinez • 9 min read</p>
+                    <p>Beyond the legal requirements, we detail the safety gear that could save your life. From EPIRBs to first aid kits, learn what experienced captains keep aboard and why it matters.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- Lifestyle Articles -->
+            <article class="article-card" data-category="lifestyle">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Lifestyle</span>
+                    <h3>Living Aboard: Is the Liveaboard Life Right for You?</h3>
+                    <p class="article-meta">October 5, 2024 • Sarah Williams • 11 min read</p>
+                    <p>Considering making your boat your home? We explore the realities of liveaboard life, from marina costs and mail forwarding to weathering storms and finding community.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Maintenance -->
+            <article class="article-card" data-category="maintenance">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Maintenance</span>
+                    <h3>Winterizing Your Boat: A Regional Guide</h3>
+                    <p class="article-meta">September 30, 2024 • Emily Chen • 10 min read</p>
+                    <p>Winterization needs vary dramatically by climate. We break down the essential steps for different regions, from freeze protection in northern waters to storm prep in hurricane zones.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Destinations -->
+            <article class="article-card" data-category="destinations">
+                <div class="article-image">?</div>
+                <div class="article-content">
+                    <span class="article-category">Destinations</span>
+                    <h3>Mediterranean Magic: Greece Island Hopping Guide</h3>
+                    <p class="article-meta">September 25, 2024 • Sarah Williams • 14 min read</p>
+                    <p>From the Cyclades to the Ionian, explore the best routes, timing, and must-visit islands for your Greek sailing adventure. Includes anchorage recommendations and provisioning tips.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Reviews -->
+            <article class="article-card" data-category="reviews">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Boat Reviews</span>
+                    <h3>Bluewater Cruiser Review: The Beneteau Oceanis 51.1</h3>
+                    <p class="article-meta">September 20, 2024 • David Thompson • 13 min read</p>
+                    <p>Can this French-built cruiser handle ocean passages while remaining comfortable at anchor? We put the Oceanis 51.1 through its paces in varied conditions to find out.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Buying -->
+            <article class="article-card" data-category="buying">
+                <div class="article-image">??</div>
+                <div class="article-content">
+                    <span class="article-category">Buying Guide</span>
+                    <h3>Used Boat Survey: What to Expect and Why It Matters</h3>
+                    <p class="article-meta">September 15, 2024 • Marcus Johnson • 9 min read</p>
+                    <p>A marine survey can save you from a costly mistake or give you negotiating leverage. Learn what surveyors check, how to choose the right one, and what the report really means.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Safety -->
+            <article class="article-card" data-category="safety">
+                <div class="article-image">?</div>
+                <div class="article-content">
+                    <span class="article-category">Safety</span>
+                    <h3>Heavy Weather Sailing: Tactics for Storm Safety</h3>
+                    <p class="article-meta">September 10, 2024 • Captain James Martinez • 11 min read</p>
+                    <p>When you can't avoid rough weather, preparation and proper tactics make all the difference. Learn storm strategies from experienced offshore sailors who've weathered the worst.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+
+            <!-- More Lifestyle -->
+            <article class="article-card" data-category="lifestyle">
+                <div class="article-image">???????????</div>
+                <div class="article-content">
+                    <span class="article-category">Lifestyle</span>
+                    <h3>Boating with Kids: Making Family Time Afloat Fun and Safe</h3>
+                    <p class="article-meta">September 5, 2024 • Lisa Patel • 8 min read</p>
+                    <p>Tips from boating families on keeping children engaged, safe, and happy on the water. From gear recommendations to activity ideas that work in any weather.</p>
+                    <a href="#" class="read-more">Read More ?</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- Load More -->
+        <div class="load-more-section">
+            <button class="btn">Load More Articles</button>
+        </div>
+
+        <!-- Newsletter CTA -->
+        <div class="newsletter-cta">
+            <h2>Never Miss an Article</h2>
+            <p>Get our latest articles, expert tips, and exclusive content delivered straight to your inbox every week.</p>
+            <a href="subscribe.html" class="btn">Subscribe to Wake & Waves</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Wake & Waves</h4>
+                <p>Your trusted source for recreational boating news, advice, and inspiration. Published weekly for enthusiasts, owners, and dreamers.</p>
+                <div class="social-links">
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="articles.html">Latest Articles</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="articles.html">Boat Reviews</a></li>
+                    <li><a href="articles.html">Destinations</a></li>
+                    <li><a href="articles.html">Maintenance</a></li>
+                    <li><a href="articles.html">Safety</a></li>
+                    <li><a href="articles.html">Lifestyle</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Buying Guide</a></li>
+                    <li><a href="#">Boat Finder Tool</a></li>
+                    <li><a href="#">Marina Directory</a></li>
+                    <li><a href="#">Weather Tools</a></li>
+                    <li><a href="#">Community Forum</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Wake & Waves Newsletter. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Category filtering
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const articles = document.querySelectorAll('.article-card');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const category = button.getAttribute('data-category');
+
+                articles.forEach(article => {
+                    if (category === 'all' || article.getAttribute('data-category') === category) {
+                        article.style.display = 'block';
+                    } else {
+                        article.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

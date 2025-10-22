@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe - Wake & Waves</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">? Wake & Waves</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="subscribe.html" class="active">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Join Our Community</h1>
+        <p>Get expert boating insights delivered to your inbox every week</p>
+    </section>
+
+    <!-- Subscription Section -->
+    <div class="container">
+        <div class="subscribe-layout">
+            <!-- Benefits Column -->
+            <div class="subscribe-benefits">
+                <h2>Why Subscribe to Wake & Waves?</h2>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Weekly Newsletter</h3>
+                        <p>Every Sunday morning, get a curated digest of the week's best boating content, delivered straight to your inbox.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Personalized Content</h3>
+                        <p>Select your interests and receive content tailored to your specific boating passions, whether sailing, powerboating, or fishing.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Exclusive Articles</h3>
+                        <p>Access subscriber-only content including in-depth guides, boat test videos, and exclusive interviews with industry experts.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Expert Tips & Tricks</h3>
+                        <p>Learn from seasoned captains and marine professionals who share practical knowledge you won't find anywhere else.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Free Resources</h3>
+                        <p>Download our comprehensive boat buying checklist, maintenance schedules, and cruising destination guides.</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">??</div>
+                    <div class="benefit-content">
+                        <h3>Community Access</h3>
+                        <p>Join our exclusive online community where you can connect with fellow boaters, share experiences, and get advice.</p>
+                    </div>
+                </div>
+
+                <div class="trust-badges">
+                    <div class="badge">
+                        <strong>50,000+</strong>
+                        <span>Active Subscribers</span>
+                    </div>
+                    <div class="badge">
+                        <strong>4.8/5</strong>
+                        <span>Reader Rating</span>
+                    </div>
+                    <div class="badge">
+                        <strong>100% Free</strong>
+                        <span>No Credit Card</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Signup Form Column -->
+            <div class="subscribe-form-container">
+                <div class="signup-form-main">
+                    <h3>Start Your Journey Today</h3>
+                    <p class="form-subtitle">Join thousands of boating enthusiasts who trust Wake & Waves for their weekly dose of nautical knowledge.</p>
+                    
+                    <form id="subscribeForm">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" placeholder="John" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Smith" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="boatOwner">I am a:</label>
+                            <select id="boatOwner" name="boatOwner">
+                                <option value="">Select one</option>
+                                <option value="owner">Current Boat Owner</option>
+                                <option value="prospective">Prospective Buyer</option>
+                                <option value="enthusiast">Boating Enthusiast</option>
+                                <option value="professional">Marine Professional</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>I'm interested in: *</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="sailing">
+                                    <span>Sailing</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="powerboats">
+                                    <span>Powerboats</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="fishing">
+                                    <span>Fishing</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="yacht-cruising">
+                                    <span>Yacht Cruising</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="maintenance">
+                                    <span>Maintenance & DIY</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="destinations">
+                                    <span>Destinations</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="buying">
+                                    <span>Buying/Selling</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="interests" value="racing">
+                                    <span>Racing</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="location">Your Location (Optional)</label>
+                            <input type="text" id="location" name="location" placeholder="City, State/Country">
+                            <small>Helps us provide region-specific content</small>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox-label terms">
+                                <input type="checkbox" name="terms" required>
+                                <span>I agree to receive the Wake & Waves newsletter and understand I can unsubscribe anytime. I accept the <a href="#">Privacy Policy</a>.</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-large">Set Sail with Wake & Waves</button>
+
+                        <p class="form-note">?? We respect your privacy. Unsubscribe anytime with one click. No spam, ever.</p>
+
+                        <div class="success-message" id="successMessage">
+                            <h4>?? Welcome Aboard!</h4>
+                            <p>Thank you for subscribing to Wake & Waves! We've sent a confirmation email to verify your address. Check your inbox and click the link to complete your subscription.</p>
+                            <p><strong>What's next?</strong> You'll receive your first newsletter this Sunday. In the meantime, check out our <a href="articles.html">latest articles</a>.</p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Social Proof -->
+                <div class="social-proof">
+                    <p class="proof-title">Trusted by boaters worldwide:</p>
+                    <div class="testimonials-mini">
+                        <div class="mini-testimonial">
+                            <p>"Best boating newsletter I've ever subscribed to!"</p>
+                            <span>— Sarah M.</span>
+                        </div>
+                        <div class="mini-testimonial">
+                            <p>"Invaluable insights every single week."</p>
+                            <span>— Captain Jim R.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Subscription Tiers (Optional Premium) -->
+        <div class="subscription-tiers">
+            <h2 class="section-title">Choose Your Subscription</h2>
+            <div class="tiers-grid">
+                <div class="tier-card">
+                    <div class="tier-badge">Most Popular</div>
+                    <h3>Free Newsletter</h3>
+                    <div class="tier-price">$0<span>/month</span></div>
+                    <ul class="tier-features">
+                        <li>? Weekly newsletter</li>
+                        <li>? All public articles</li>
+                        <li>? Basic destination guides</li>
+                        <li>? Community forum access</li>
+                        <li>? Monthly maintenance tips</li>
+                    </ul>
+                    <button class="btn btn-tier selected">Current Selection</button>
+                </div>
+
+                <div class="tier-card tier-premium">
+                    <div class="tier-badge premium">Premium</div>
+                    <h3>Premium Member</h3>
+                    <div class="tier-price">$9.99<span>/month</span></div>
+                    <ul class="tier-features">
+                        <li>? Everything in Free, plus:</li>
+                        <li>? Exclusive premium articles</li>
+                        <li>? Full boat test videos</li>
+                        <li>? Downloadable guides & PDFs</li>
+                        <li>? Expert Q&A sessions</li>
+                        <li>? Early access to new content</li>
+                        <li>? Ad-free experience</li>
+                        <li>? Premium community features</li>
+                    </ul>
+                    <button class="btn btn-tier">Coming Soon</button>
+                </div>
+
+                <div class="tier-card">
+                    <h3>Lifetime Access</h3>
+                    <div class="tier-price">$299<span>/one-time</span></div>
+                    <ul class="tier-features">
+                        <li>? Everything in Premium</li>
+                        <li>? Lifetime access to all content</li>
+                        <li>? Exclusive lifetime member badge</li>
+                        <li>? Private member events</li>
+                        <li>? Personal boat consultation</li>
+                        <li>? Support our mission forever</li>
+                    </ul>
+                    <button class="btn btn-tier">Coming Soon</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ Section -->
+        <div class="faq-section">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>How often will I receive emails?</h4>
+                    <p>Our main newsletter arrives every Sunday morning. Depending on your interests, you may occasionally receive special editions or urgent safety alerts.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I unsubscribe anytime?</h4>
+                    <p>Absolutely! Every email includes an unsubscribe link. One click and you're out. No questions asked, no hard feelings.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is my email address safe?</h4>
+                    <p>We take privacy seriously. Your email is never sold, rented, or shared with third parties. We only use it to send you our newsletter.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What if I don't own a boat yet?</h4>
+                    <p>Perfect! Many of our subscribers are aspiring boat owners. We provide plenty of content to help you prepare for boat ownership and make informed decisions.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I change my preferences later?</h4>
+                    <p>Yes! Every newsletter includes a link to update your preferences. Change your interests, email frequency, or content types anytime.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Do you offer a mobile app?</h4>
+                    <p>Currently, we deliver content via email and our website. A mobile app is in development for 2025!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Wake & Waves</h4>
+                <p>Your trusted source for recreational boating news, advice, and inspiration. Published weekly for enthusiasts, owners, and dreamers.</p>
+                <div class="social-links">
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                    <a href="#">??</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="articles.html">Latest Articles</a></li>
+                    <li><a href="subscribe.html">Subscribe</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="articles.html">Boat Reviews</a></li>
+                    <li><a href="articles.html">Destinations</a></li>
+                    <li><a href="articles.html">Maintenance</a></li>
+                    <li><a href="articles.html">Safety</a></li>
+                    <li><a href="articles.html">Lifestyle</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Buying Guide</a></li>
+                    <li><a href="#">Boat Finder Tool</a></li>
+                    <li><a href="#">Marina Directory</a></li>
+                    <li><a href="#">Weather Tools</a></li>
+                    <li><a href="#">Community Forum</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Wake & Waves Newsletter. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Form submission handling
+        document.getElementById('subscribeForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Validate at least one interest is selected
+            const interests = document.querySelectorAll('input[name="interests"]:checked');
+            if (interests.length === 0) {
+                alert('Please select at least one interest to continue.');
+                return;
+            }
+
+            // Show success message
+            const successMessage = document.getElementById('successMessage');
+            const form = document.getElementById('subscribeForm');
+            
+            successMessage.style.display = 'block';
+            form.style.display = 'none';
+            
+            // Scroll to success message
+            successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+    </script>
+</body>
+</html>
